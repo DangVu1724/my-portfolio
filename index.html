@@ -74,6 +74,57 @@
       .nav-list a:hover {
         color: #38bdf8;
       }
+
+      #contact-form {
+        padding: 60px 20px;
+      }
+
+      #contact-form h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        padding: 12px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+      }
+
+      .contact-form input:focus,
+      .contact-form textarea:focus {
+        border-color: #333;
+      }
+
+      .contact-form textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+
+      .contact-form button {
+        padding: 12px;
+        background-color: #333;
+        color: #fff;
+        font-size: 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .contact-form button:hover {
+        background-color: #555;
+      }
     </style>
   </head>
 
@@ -140,8 +191,13 @@
             </li>
             <li>
               <strong>GitHub:</strong>
-              <a href="https://github.com/DangVu1724/agrimarket" target="_blank" rel="noopener noreferrer">  github.com/DangVu1724/agrimarket </a>
-              </a>  
+              <a
+                href="https://github.com/DangVu1724/agrimarket"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/DangVu1724/agrimarket
+              </a>
             </li>
           </ul>
         </div>
@@ -168,7 +224,11 @@
             </li>
             <li>
               <strong>GitHub:</strong>
-              <a href="https://github.com/DangVu1724/agrimarket" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/DangVu1724/agrimarket"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 github.com/DangVu1724/agrimarket
               </a>
             </li>
@@ -176,6 +236,16 @@
         </div>
       </section>
     </main>
+
+    <section id="contact-form">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
 
     <footer id="contact">
       <h2>Contact</h2>
