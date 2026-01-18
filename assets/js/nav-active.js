@@ -1,8 +1,8 @@
-const navLinks = document.querySelectorAll(".nav-link");
+const links = document.querySelectorAll(".nav-link");
+const currentPage = window.location.pathname.split("/").pop();
 
-navLinks.forEach(link => {
-  link.addEventListener("click", () => {
-    navLinks.forEach(item => item.classList.remove("active"));
+links.forEach(link => {
+  if (link.getAttribute("href") === currentPage) {
     link.classList.add("active");
-  });
+  }
 });

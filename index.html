@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vu Dang | My Portfolio</title>
+    <title>Team Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/nav-active.js" defer></script>
   </head>
@@ -12,131 +12,61 @@
     <header class="site-header">
       <div class="container">
         <div class="brand">
-          <h1>Đặng Vũ</h1>
-          <p>IT Student | Software Developer</p>
+          <h1>Team Portfolio</h1>
+          <p>Intern Java – FPT Software</p>
         </div>
 
         <nav>
           <ul class="nav-list" id="main-nav">
             <li class="nav-item">
-              <a href="#about" class="nav-link active">About</a>
+              <a href="index.html" class="nav-link active">Team</a>
             </li>
             <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
+              <a href="dangvu.html" class="nav-link">Đặng Vũ</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="member-b.html" class="nav-link">Member B</a>
+            </li>
+            <li class="nav-item">
+              <a href="member-c.html" class="nav-link">Member C</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hello! My name is Đặng Vũ. I am an IT student with a strong interest in
-        software development. I am currently learning Java, Flutter and Android
-      </p>
-      <p>
-        My goal is to become a professional software developer and work in a
-        collaborative and innovative environment.
-      </p>
-    </section>
+    <main class="team-page">
+      <section class="team-intro container">
+        <h2>Our Team</h2>
+        <p>
+          We are a group of IT students participating in the FPT Software
+          Internship program. Our goal is to practice teamwork, Git workflow,
+          and UI development through a simple portfolio project.
+        </p>
+      </section>
 
-    <main>
-      <section id="projects">
-        <h2>Projects</h2>
+      <section class="team-members container">
+        <h2>Team Members</h2>
 
-        <div class="project">
-          <h3>Agrimarket</h3>
-          <p><strong>Duration:</strong> 05/2025 – 11/2025</p>
-          <p>
-            A mobile application that connects farmers and buyers, allowing
-            farmers to list fresh agricultural products and buyers to easily
-            search and purchase them.
-          </p>
-          <ul>
-            <li><strong>Team size:</strong> 3</li>
-            <li>
-              <strong>Contribution:</strong> Developed most of the Flutter
-              client with over 20 UI screens, implemented GetX state management,
-              and integrated Firebase services for a multi-role marketplace
-              application.
-            </li>
-            <li>
-              <strong>Main features:</strong>
-              Authentication and role-based access (Seller/Buyer), product and
-              menu management, promotions, order handling, sales analytics, cart
-              and checkout, ratings, loyalty points, real-time chat, and order
-              status notifications using FCM.
-            </li>
-            <li>
-              <strong>Tech stack:</strong> Flutter (Dart), Node.js (Express),
-              GetX, Firebase (Firestore, Firebase Auth, FCM), Hive
-            </li>
-            <li>
-              <strong>GitHub:</strong>
-              <a
-                href="https://github.com/DangVu1724/agrimarket"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/DangVu1724/agrimarket
-              </a>
-            </li>
-          </ul>
+        <div class="member-card">
+          <h3>Member A – Đặng Vũ</h3>
+          <a href="member-a.html">View profile →</a>
         </div>
 
-        <div class="project">
-          <h3>YumShare</h3>
-          <p><strong>Duration:</strong> 12/2025 – Present</p>
-          <p>
-            A mobile recipe-sharing application where users can discover dishes
-            from around the world, save favorite recipes, and connect with other
-            chefs.
-          </p>
-          <ul>
-            <li><strong>Team size:</strong> 1 (Personal project)</li>
-            <li>
-              <strong>Main features:</strong>
-              Discover latest, popular, and recommended recipes; create, edit,
-              and manage recipes; view detailed recipes with ratings, likes,
-              comments; follow chefs to receive updates and notifications.
-            </li>
-            <li>
-              <strong>Tech stack:</strong> Flutter (Dart), GetX, Firebase
-              (Firestore, Firebase Auth, FCM), Hive
-            </li>
-            <li>
-              <strong>GitHub:</strong>
-              <a
-                href="https://github.com/DangVu1724/agrimarket"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/DangVu1724/agrimarket
-              </a>
-            </li>
-          </ul>
+        <div class="member-card">
+          <h3>Member B</h3>
+          <a href="member-b.html">View profile →</a>
+        </div>
+
+        <div class="member-card">
+          <h3>Member C</h3>
+          <a href="member-c.html">View profile →</a>
         </div>
       </section>
     </main>
 
-    <section id="contact-form">
-      <h2>Contact Me</h2>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-
-    <footer id="contact">
-      <h2>Contact</h2>
-      <p>Email: dangvu0107@gmail.com</p>
-      <p>Phone: 0375302679</p>
+    <footer class="site-footer">
+      <p>© 2026 Team Portfolio – FPT Software Internship</p>
     </footer>
   </body>
 </html>
