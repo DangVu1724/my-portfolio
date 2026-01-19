@@ -1,4 +1,5 @@
 ## Le Quang Huy
+# Portfolio Project – Agile & Git workflow DEMO - DangVu
 
 This repository demonstrates a **mini Agile project** using a **portfolio website UI** as the product and **Git Flow** as the collaboration workflow. The goal is to practice user stories, backlog management, pull requests, code reviews, and merge conflict resolution.
 
